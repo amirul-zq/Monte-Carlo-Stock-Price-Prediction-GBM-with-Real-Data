@@ -5,8 +5,13 @@ This project uses historical stock price data to fit a Geometric Brownian Motion
 
 # Key Features
 (1) Fetches and ingests real historical price data (CSV or API-compatible input).
+
 (2) Estimates GBM parameters (drift μ and volatility σ) from log-returns.
+
 (3) Runs thousands of Monte Carlo simulations of future price trajectories.
+
 (4) Produces plots: simulated paths, mean + quantile bands, histogram of terminal prices.
+
 (5) Outputs summary statistics: expected price, median, standard deviation, VaR at chosen confidence levels.
+
 (6) Lightweight, clear code structure suitable for extension (stochastic volatility, jump-diffusions, portfolio simulation).
